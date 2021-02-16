@@ -1,5 +1,4 @@
-﻿
-namespace Matrix
+﻿namespace Matrix
 {
         
     using System;
