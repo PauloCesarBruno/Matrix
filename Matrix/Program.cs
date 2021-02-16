@@ -15,10 +15,10 @@
                 Console.WindowHeight = Console.BufferHeight = Console.LargestWindowHeight;
                 Console.WindowWidth = Console.BufferWidth = Console.LargestWindowWidth;
 
-#if readkey
+            #if readkey
             Console.WriteLine("Aperte Qualquer tecla para continuar!");
             Console.ReadKey();
-#endif
+            #endif
 
                 Console.CursorVisible = false;
                 int width, height;
